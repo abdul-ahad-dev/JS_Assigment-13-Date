@@ -38,6 +38,7 @@ if (currentMin < 10) {
 if (currentSecond < 10) {
     currentSecond = "0" + currentSecond
 }
-document.write(`<p class='line'>Today is: ${dayName[currentDay]}</p>`);
+
+document.write(`<p>Today is: ${dayName[currentDay]}</p>`);
 document.write("<br>");
-document.write(`<p class='line'>Current Time: ${currentHour} ${ampm} : ${currentMin} : ${currentSecond}</p>`);
+document.write(`<p>Current Time: ${currentHour} ${ampm} : ${currentMin} : ${currentSecond}</p>`);

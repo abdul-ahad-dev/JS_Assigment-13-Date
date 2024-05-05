@@ -11,29 +11,30 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 a{
     text-decoration: none;
     color:crimson;
     margin: 1.5vw;
-    padding: .4vw;
-    font-size: 1.5vw;
+    padding: .5vw;
+    font-size: 1.2vw;
 }
 a:hover{
-    color: rgb(255, 6, 56);
-    font-size: 1.7vw;
-    border-bottom: 2px solid black;
+    color: rgb(255, 45, 87);
 }
-.line{
-    display: flex;
-    flex-direction: column;
+.heading {
+    font-size: 1.5vw;
+}
+.heading:hover{
+    color: rgb(255, 75, 111);
+    font-size: 1.8vw;
+    padding: 5px 10px;
+}
+p{
     align-items: center;
     color:chocolate;
-    padding: 10px 20px; 
-    margin-top: 20px;
-    font-size: 2vw;
-}
-.line:hover{
-    color:rgb(233, 104, 13);
-    cursor:default;
+    padding: 10px 20px;
+    margin-top: 2vw;
+    font-size: 1.5vw;
 }
