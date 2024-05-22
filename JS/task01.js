@@ -7,8 +7,8 @@ var dayName = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
 
 var now = new Date();
 
-var currentDay = now.getDate();
-
+var currentDay = now.getDay();
+console.log(currentDay);
 var currentHour = now.getHours();
 
 var currentMin = now.getMinutes();
